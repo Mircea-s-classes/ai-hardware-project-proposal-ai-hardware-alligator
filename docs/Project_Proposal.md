@@ -11,43 +11,45 @@
 # AI Hardware Project Proposal Template
 
 ## 1. Project Title
-Name of the Team
+Team AI Alligator
 
-List of students in the team
+Haizhou Yu, Kun Lu, Haochen Liu
 
-Provide a clear and concise title for your project. 
+Real Time Bird Sound Classifier. 
 
 ## 2. Platform Selection
-Select one platform category and justify your choice.
-
-**Undergraduates:** Edge-AI, TinyML, or Neuromorphic platforms  
-**Graduates:** open-source AI accelerators (Ztachip, VTA, Gemmini, VeriGOOD-ML, NVDLA) or any of the above 
+Arduino Machine Learning Kit.
 
 ## 3. Problem Definition
-Describe the AI or hardware design problem you aim to address and its relevance to AI hardware (e.g., efficiency, latency, scalability).
+In many environments, monitoring and identifying bird species is an important part of 
+understanding nature, as well as fulfilling hobbies. However, not all people possess the ability to 
+distinguish bird species from their sounds, making identifying bird sounds time-consuming and 
+difficult to educators, hobbyists, and conservation groups with limited ability and resources. This 
+project aims to develop a low-cost, small-size, real-time bird sound classification system using 
+Tiny ML on the Arduino ML Kit. In addition, by embedding an on-device neural network which 
+can be adaptable for bird song recognition directly from environmental audio. AI Alligator aims 
+to demonstrate the system which enables continuous, low-power bird detection without cloud 
+connectivity.
 
 ## 4. Technical Objectives
-List 3–5 measurable objectives with quantitative targets when possible.
+Accuracy goal - 95% & Reaction Time - <1s
 
 ## 5. Methodology
-Describe your planned approach: hardware setup, software tools, model design, performance metrics, and validation strategy.
+Hardware setup: Arduino ML kit, microphone & Software setup: CPP, training dataset (preferably existing from kaggle)
 
 ## 6. Expected Deliverables
 List tangible outputs: working demo, GitHub repository, documentation, presentation slides, and final report.
 
 ## 7. Team Responsibilities
-List each member’s main role.
+Each member’s main role.
 
 | Name | Role | Responsibilities |
 |------|------|------------------|
-| [Student A] | Team Lead | Coordination, documentation |
-| [Student B] | Hardware | Setup, integration |
-| [Student C] | Software | Model training, inference |
-| [Student D] | Evaluation | Testing, benchmarking |
+| Haizhou Yu | Team Lead | Coordination, documentation, testing, benchmarking |
+| Kun Lu | Hardware | Setup, integration |
+| Haochen Liu | Software | Model training, inference |
 
 ## 8. Timeline and Milestones
-Provide expected milestones:
-
 | Week | Milestone | Deliverable |
 |------|------------|-------------|
 | 2 | Proposal | PDF + GitHub submission |
@@ -56,7 +58,17 @@ Provide expected milestones:
 | Dec. 18 | Final presentation | Report, demo, GitHub archive |
 
 ## 9. Resources Required
-List special hardware, datasets, or compute access needed.
+Hardware Selection: Arduino Tiny Machine Learning Kit
 
+Data Set: Free Spoken Digit Dataset (FSDD)
 ## 10. References
-Include relevant papers, repositories, and documentation.
+[1]: Include relevant papers, repositories, and documentation. P, I. C., R, D. K., & Mahalakshmi R. (2024). Bird Sound Identification System using Deep Learning. Procedia Computer Science, 233, 597–603. 
+
+
+https://doi.org/10.1016/j.procs.2024.03.249 
+
+
+[2]: Jackson, Z. (2023, December 3). Free Spoken Digit Dataset (FSDD). GitHub. 
+
+
+https://github.com/Jakobovski/free-spoken-digit-dataset 
